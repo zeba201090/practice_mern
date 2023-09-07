@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 10%;
+  border-radius: 6px;
+  background-color: rgb(204, 126, 239);
+  box-shadow: #c233f7 0px 0px 10px 0px;
+}
+
+.input{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.add{
+  background-color: rgb(83, 235, 174);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+.delete-item{
+  background-color: rgb(244, 60, 60);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.update-item{
+  background-color: rgb(79, 120, 255);
+  color: rgb(1, 12, 17);
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+ 
+  font-size: 13px;
+}
+
+.todo-iitem{
+  background-color: rgba(255, 255, 255, 0.544);
+  border: none;
+  height: auto;
+  margin: auto;
+  font-size: medium;
+  font-weight: bold;
+  width: 80%;
+  color: rgb(0, 0, 0);
+  padding: auto;
+  justify-content: left;
+ 
+  font-size: 16px;
+}
+
+body{
+  background-color: #282c34;
+  color: white;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
